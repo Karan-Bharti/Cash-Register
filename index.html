@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+<nav class="navigation"><h1 class="heading">Cash Register</h1></nav>
+<p class="describe">Enter the bill amount and cash given by the customer and you will get to know minimum number of notes to return.</p>
+<label for="bill-amount">Bill Amount: </label>
+<input id="bill-amount" type="text"/>
+<label for="cash-given"> Cash Given: </label>
+<input id="cash-given" type="text"/>
+<button id="Check-button">Check</button>
+<p id="error-message"></p>
+<table class="change-table">
+<caption>
+
+    Return Change
+</caption>
+<tr>
+
+<th id="no-of-notes" >Notes</th>
+
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+<td id="no-of-notes"></td>
+</tr>
+<tr>
+<th class="k">Denominations</th>
+<td class="k">2000</td>
+<td class="k">500</td>
+<td class="k">100</td>
+<td class="k">50</td>
+<td class="k">20</td>
+<td class="k">10</td>
+<td class="k">1</td>
+</tr>
+
+</table>
+</hr>
+
+<footer class="footers"> Have a nice day!!</footer>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

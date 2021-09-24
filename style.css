@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background: cornsilk;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+}
+.navigation{
+    text-align: center;
+}
+#Check-button{
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+#bill-amount{
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+#cash-given{
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+#Check-button{
+    width: 10%;
+    border: 2px solid;
+}
+
+
+.heading{
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.change-table{
+border: 2px solid;
+border-color: black;
+padding: 0.2;
+
+}
+
+#no-of-notes{
+    border: black 2px solid;
+}
+.k{
+    border: black 2px solid;
+}
+.footers{
+    padding: 2rem 2 rem;
+    text-align: center;
+margin: 2rem 2rem;
+}
