@@ -3,7 +3,7 @@ body{
 text-align: center;
     font-family: 'Montserrat', sans-serif;
     background: cornsilk;
-
+ margin: auto;
 }
 
 .container{
@@ -11,28 +11,22 @@ text-align: center;
     flex-direction: column;
     width: 50vw;
     text-align: center;
+    margin: auto;
 }
 .navigation{
     text-align: center;
 }
-#Check-button{
-    margin-left: 0%;
-    margin-right: 0%;
-    
-}
+
 
 #bill-amount{
     margin: 2rem 2rem;
     padding: 1rem 1rem;
 }
-#cash-given{
-    margin: 2rem 2rem;
-    padding: 1rem 1rem;
-}
-
-#Check-button{
+.next-btn{
+    margin: auto;
     width: 10%;
     border: 2px solid;
+
 }
 
 
@@ -40,19 +34,43 @@ text-align: center;
     padding: 2rem 2rem;
     text-align: center;
 }
+.hide{
+margin: auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+#cash-given{
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+    width:44vw ;
+}
+
+#Check-button{
+    margin: auto;
+    width: 10%;
+    border: 2px solid;
+}
 
 .change-table{
 border: 2px solid;
 border-color: black;
-padding: 0.2;
+padding: 0.5rem;
+margin: auto;
+}
 
+.rtn{
+    margin-bottom: 2rem; 
 }
 
 #no-of-notes{
     border: black 2px solid;
+    padding: 0.5rem;
 }
 .k{
     border: black 2px solid;
+    padding: 0.5rem;
 }
 .footers{
     padding: 2rem 2 rem;

@@ -3,7 +3,11 @@ const cashGiven=document.querySelector("#cash-given")
 const checkButton=document.querySelector("#Check-button")
 const message=document.querySelector("#error-message")
 const noOfNotes=document.querySelectorAll("#no-of-notes")
-const availableNotes=[2000, 500, 100, 50, 10, 1];
+const nextBtn = document.querySelector('.next-btn')
+const pHide = document.querySelector('.p-hide')
+const hide = document.querySelector('.hide')
+hide.style.display = "none"
+const availableNotes=[2000, 500, 100, 50,20, 10, 1];
 checkButton.addEventListener("click",function validateBillAndCashAmount (){
  hideMessage();
 
@@ -43,7 +47,16 @@ function showMessage (msg){
     message.innerText = msg;
 }
 
-
+nextBtn.addEventListener('click', () => {
+    const amount = billAmount.value
+    if (amount >= 1) {
+        hide.style.display = "block" 
+        pHide.innerText = ""
+    }
+    else{
+        pHide.innerText = "Invalid Amount, please check"
+    }
+})
 
 
 
